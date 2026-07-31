@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+
 :root {
   --color-page-bg: #a4a2a277
 ;
@@ -37,7 +40,7 @@ html {
 body {
   margin: 0;
   background-color: var(--color-page-bg);
-  font-family: "Crimson Pro", Georgia, serif;
+  font-family: "Lato", sans-serif;
   letter-spacing: 0.035em;
   color: var(--color-text-main);
 }
@@ -128,8 +131,8 @@ a {
 }
 
 .profile-image-block {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  width: 65%;
+  aspect-ratio: 1-1.25;
   overflow: hidden;
   border-radius: 14px;
   border: 3px solid var(--color-profile-border);
@@ -138,9 +141,8 @@ a {
 .profile-image {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .profile-text-block {
